@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Simple Media</title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+		rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+		crossorigin="anonymous">
+<style>
+* {
+	font-family: sans, sans-serif;
+}
+.profile-pic {
+	width: 100px;
+	height: 100px;
+	background-image: url('https://harrell-remodeling.com/wp-content/uploads/2017/09/Person-placeholder.jpg');
+	background-size: cover ;
+	background-position: center;
+}
+.post-icon {
+	height: 40px; 
+	width: 40px; 
+	background-image: url('https://www.asiamediajournal.com/wp-content/uploads/2022/11/Default-PFP.jpg');
+	background-size: cover ;
+	background-position: center;
+}
+.post-media {
+	height: 500px; 
+	background-image: url('https://images.pexels.com/photos/3790839/pexels-photo-3790839.jpeg');
+	background-size: cover ;
+	background-position: center;
+}
+.upcoming-event {
+	height: 150px;
+	background-image: url('https://english.ahram.org.eg/Media/News/2023/10/5/41_2023-638321136590226964-22.jpg');
+	background-size: cover ;
+	background-position: center;
+}
+.new-friend {
+	height: 150px;
+	background-image: url('https://i.pinimg.com/474x/ba/fd/69/bafd6939587fc13452f170cae8dc3ad8.jpg');
+	background-size: cover ;
+	background-position: center;
+}
+.my-4 { box-shadow: 3px 3px 8px Gray; }
+.fg-white { color: White; }
+</style>
+	</head>
+
+	<body class="bg-secondary-subtle">
+		<nav class="bg-secondary">
+			<div class="col-md-8 col-lg-12 mx-md-auto d-flex justify-content-between justify-content-lg-start">
+				<div class="p-1 mx-4 bg-secondary-subtle">$$ Logo</div>
+				<div class="p-1 mx-3 fg-white">##</div>
+				<div class="p-1 mx-3 fg-white">%%</div>
+				<div class="p-1 mx-3 fg-white">@@</div>
+				<div class="p-1 mx-3 fg-white">{}</div>
+			</div>
+		</nav>
+
+		<section class="container-fluid row m-auto">
+
+			<section class="col-12 col-lg-3 col-md-8 mx-md-auto">
+				<div class="bg-light my-4 p-3">
+					<h5 class="text-center">My Profile</h5>
+					<div class="profile-pic bg-secondary rounded-circle mx-auto mb-5 mt-3"></div>
+					<p class="my-0">🪶 Designer, UI</p>
+					<p class="my-0">🏠 London, UK</p>
+					<p class="my-0">🍰 Jan 1, 1111</p>
+				</div>
+				<ul class="list-group my-4 rounded-0">
+					<li class="list-group-item list-group-item-dark">⚽ My Groups</li>
+					<li class="list-group-item list-group-item-dark">📅 My Events</li>
+					<li class="list-group-item list-group-item-dark">📷 My Photos</li>
+				</ul>
+
+				<div class="bg-light my-4 p-3">
+					<h6 class="card-header mb-1">Interests</h6>
+					<span class="badge bg-dark">Design</span>
+					<span class="badge bg-dark">Cycling</span>
+					<span class="badge bg-dark">Arts</span>
+					<span class="badge bg-dark">Rally</span>
+					<span class="badge bg-secondary">Rally</span>
+					<span class="badge bg-secondary">Nature</span>
+					<span class="badge bg-light text-dark">Arts</span>
+					<span class="badge bg-light text-dark">Nature</span>
+					<span class="badge bg-light text-dark">Cycling</span>
+				</div>
+
+				<div class="card my-4 border-0 rounded-0">
+					<div class="card-header">
+						Quote
+					</div>
+					<div class="card-body">
+						<blockquote class="blockquote mb-0">
+							<p>A well-known quote, contained in a blockquote element.</p>
+							<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+			</section>
+
+			<section class="col-12 col-lg-6 col-md-8 mx-md-auto">
+				<form class="border bg-light my-4 p-3">
+					<div class="mb-3">
+						<label for="new-post" class="form-label">New Post</label>
+						<input type="text" id="new-post" class="form-control">
+						<div class="form-text">Share your day with your frinds.</div>
+					</div>
+					<button type="submit" class="btn btn-secondary px-3 py-1">📝 Post</button>
+				</form>
+
+				<div class="card my-4 rounded-0 bg-light">
+					<div class="card-body">
+						<div class="d-flex mb-3">
+							<div class="post-icon rounded-circle bg-secondary"></div>
+							<h5 class="card-title mx-2 my-auto">Jhon Doe</h5>
+						</div>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<div class="post-media bg-secondary mb-3" ></div>
+						<button class="btn btn-secondary py-1">🩷 Like</button>
+						<button class="btn btn-secondary py-1">💬 Comment</button>
+					</div>
+				</div>
+				<div class="card my-4 rounded-0 bg-light">
+					<div class="card-body">
+						<div class="d-flex mb-3">
+							<div class="post-icon rounded-circle bg-secondary"></div>
+							<h5 class="card-title mx-2 my-auto">Jane Doe</h5>
+						</div>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<div class="post-media bg-secondary mb-3" ></div>
+						<button class="btn btn-secondary py-1">🩷 Like</button>
+						<button class="btn btn-secondary py-1">💬 Comment</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="col-12 col-lg-3 col-md-8 mx-md-auto">
+
+				<div class="card text-center rounded-0 border-0 my-4">
+					<div class="card-header">
+						Upcoming Event
+					</div>
+					<div class="card-body">
+						<div class="upcoming-event bg-secondary col-6 col-lg-10 mx-auto"></div>
+						<h5 class="m-1">Holiday</h5>
+						<h6 class="m-0">Friday 15:00</h6>
+					</div>
+					<div class="card-footer">
+						<button class="btn btn-secondary col-6 col-lg-10 py-1">Info</button>
+					</div>
+				</div>
+
+				<div class="text-center bg-light p-3 my-4">
+					<h5 >Friend Requist</h5>
+					<div class="new-friend bg-secondary col-5 col-lg-8 mx-auto my-2"></div>
+					<h5 class="m-1">Jane Doe</h5>
+					<button class="col-2 col-lg-4 rounded-0 btn btn-lg py-0 btn-success">✔</button>
+					<button class="col-2 col-lg-4 rounded-0 btn btn-lg py-0 btn-danger">✗</button>
+				</div>
+
+				<div class="text-center fs-1 bg-light py-5 my-4">ADS</div>
+
+			</section>
+
+		</section>
+	</body>
+</html>
